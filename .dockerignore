@@ -1,0 +1,14 @@
+.venv
+__pycache__
+*.pyc
+.git
+.env
+*.ipynb
+*.zip
+mlruns
+mlartifacts
+mlflow.db
+model_artifacts_demo
+build_demo_artifacts.py
+tests
+*.docx
