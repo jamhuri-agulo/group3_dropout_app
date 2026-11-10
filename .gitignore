@@ -9,3 +9,5 @@ mlflow.db
 model_artifacts_demo/
 *.zip
 *.docx
+.Rhistory
+desktop.ini
