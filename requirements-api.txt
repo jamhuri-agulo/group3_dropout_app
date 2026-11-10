@@ -1,0 +1,8 @@
+# Pinned to the versions the model was trained with (verified by /health: sklearn_trained == sklearn_runtime).
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.6.0
+# Web layer (not model-critical): pin to the exact versions from `pip list` once confirmed on your machine.
+fastapi>=0.110
+uvicorn[standard]>=0.29

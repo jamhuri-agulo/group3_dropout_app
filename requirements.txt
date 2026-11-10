@@ -1,0 +1,14 @@
+# Versions below are those the final model was trained with (Colab session, 2026-11-01 check).
+# Loading a scikit-learn model under a different version can warn, fail, or change scores.
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.6.0
+streamlit
+pytest
+# Only needed to re-run the notebook's model comparison (not to run the app):
+# xgboost==3.4.1
+# Module 6 API (6.2):
+fastapi
+uvicorn[standard]
+httpx
